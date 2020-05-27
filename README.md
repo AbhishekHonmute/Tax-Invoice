@@ -9,8 +9,12 @@ Technology used : Front-end : HTML, CSS, Bootstrap, Javascript. back-end : php, 
 
 Installation And Run :
 
-Install apache and sql local servers (xampp).
-Place all this project files given to the suitable location according to your server (for xampp go to C:xampp/htdocs/[create folder let ppl project]).
-insure that your sql database username is 'root' and password is "".
-Now open main.php file from local server (localhost) and you are ready to use it.
-For email service for customer open send_mail_admin.php and send_mail_counter.php files and locate mail configuration comment. Below that you have to enter the organisation email address and password. And you are ready to use email service
+1. Install apache and sql local servers (xampp).
+
+2. Place all this project files given to the suitable location according to your server (for xampp go to C:xampp/htdocs/[create folder let ppl project]).
+
+3. insure that your sql database username is 'root' and password is "".
+
+4. Now open main.php file from local server (localhost) and you are ready to use it.
+
+5. For email service for customer open send_mail_admin.php and send_mail_counter.php files and locate mail configuration comment. Below that you have to enter the organisation email address and password. And you are ready to use email service
