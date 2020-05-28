@@ -1,0 +1,64 @@
+
+Syntax :
+try :
+    """Our code which is expected to raise an excpetion """
+except (Type of exception) :
+    """ Handle the exception """
+else :
+    """ If the code doesn't raise an exception """
+
+It's okay if wwe dont write the type of exception but it's a bad programming
+practice cz it will run for every exception not for a particular excepttion as
+a good programmer wants to be
+
+
+Syntatic Error :-
+    Exception handling not useful.
+
+OutOfMemoryError :-
+    Out of Memory Eror can be handled by exception handling.
+Pyton adpts the memory architecture of c languaege's malloc function
+However some out of memeory errors cant be recovered by exception handling,
+therefore not a good practice to use exception handling for these errors.
+
+Recurion Error :-
+    As the name suggests this error occurs when a sub-routine is called .
+For ech sub-rotine a neew stack frame is created with all local variables and
+that subroutine info . for each new subroutine a new srack frame is created
+resulting into violation of memory bounds.
+
+Exceptions :-
+    Exceptions occurs durinf runtime of the program which are unconditionally
+fatal. i.e these excpetions when not handled in the script the program stops
+abruptly.
+
+There are some in built exception handlers which we will learn further
+
+Components of exception handling 
+    1. try :-
+        try to run the script in which u assume the error to be occured 
+    2. except :- 
+        will define the type of exception we expect to be occcured in try block
+    3. else :- 
+        if theres no any exception then this code is to be executed 
+    4. finally :- 
+        Irrespective of exception occuring this block of code always runs
+In-built exceptions :-
+    Keyboard Interrupt Error :- Interrupt is raised when we interrupt the
+kernel by ctrl - C
+    ZeroDivisionError :- the divisor divided bt zero is handled by this
+exception 
+    OverflowError :- this error occurs when the output of the arithmetic result
+is greater than its range.
+    AssertionError :- Assertion statement checks the given statement is valid
+or not, if its invalid it raises the assertion error
+    AttributeError :- in a object if we try to reference any attribute of the
+object which is not present
+    ImportError :- raised when you try to import modeule which is absent
+    LookupError :- when we dont have the the necessary index in the list or the
+key in the dict
+    classified to two types:-
+        Index Error and Key Error accodinly as mentioned aboved
+    
+    NameError :- raised when the local or global variale is not present (or)
+decalred and initialize.
