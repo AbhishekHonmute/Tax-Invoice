@@ -1,4 +1,5 @@
-# Tax-Invoice-PPL-Project
+# Tax-Invoice
+PPL Project
 A online platform for creating bills, managing stock and user accounts and sending bill as mail to customers
 
 Tital of project : Tax Invoice And Stock Management Webapp
